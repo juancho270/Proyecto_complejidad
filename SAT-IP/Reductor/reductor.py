@@ -50,12 +50,13 @@ def leer():
 	comentarios = ""
 	variables = ""
 	for archivo in os.listdir(carpeta):
+		print(archivo)
 		clausulas = ""
 		g = open(os.path.join(carpeta,archivo) , "r")
 		nombre = g.name.split("/")[len(g.name.split("/")) - 1].split(".")[0]
 		for linea in g.readlines():
 			vector = linea.split()
-			if vector[0] == 'c':
+			if vector[0] == 'c' or vector[0] == '':
 				""
 			elif vector[0] == 'p':
 				variables = vector[2]
