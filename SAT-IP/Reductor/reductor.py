@@ -38,12 +38,20 @@ def adiccional():
 	return clausula
 
 def escribir(texto,nom):
-	f = open("/home/juancho270/Proyecto_Complejidad/SAT-IP/InstanciasMiniZinc/" + nom + ".mzn",'w')
+	carpeta = ""
+	for a in range(len(os.getcwd().split("/"))-1):
+		carpeta = carpeta + os.getcwd().split("/")[a] + "/"
+	carpeta = carpeta + "InstanciasMiniZinc/" + nom + ".mzn"
+	f = open(carpeta,'w')
 	f.write(texto)
 	f.close()
 	
 def leer():
-	carpeta = "/home/juancho270/Proyecto_Complejidad/SAT-IP/InstanciasSAT"
+	carpeta = ""
+	for a in range(len(os.getcwd().split("/"))-1):
+		carpeta = carpeta + os.getcwd().split("/")[a] + "/"
+	
+	carpeta= carpeta + "InstanciasSAT/"
 	g = ""
 	contador = 0
 	nombre = ""
@@ -68,5 +76,5 @@ def leer():
 				clausulas = clausulas + hacerClausulas(vector)
 		escribir(comentarios + variables + clausulas,nombre)		
 		g.close()
-	
+
 leer()
