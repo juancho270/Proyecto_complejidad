@@ -75657,3 +75657,5 @@ constraint V7360 + V128 + n_V7965 >= 1;
 constraint V7360 + n_V128 + V7965 >= 1;
 constraint n_V7360 + V128 + V7965 >= 1;
 constraint n_V7360 + n_V128 + n_V7965 >= 1;
+
+solve satisfy;%solve maximize primer variable

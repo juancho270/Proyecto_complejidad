@@ -22804,3 +22804,5 @@ constraint n_V4640 + V4613 >= 1;
 constraint n_V4640 + V4639 >= 1;
 constraint V4640 + n_V4613 + n_V4639 >= 1;
 constraint n_V4640 >= 1;
+
+solve satisfy;%solve maximize primer variable

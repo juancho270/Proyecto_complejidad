@@ -27796,3 +27796,5 @@ constraint n_V5638 + V5628 >= 1;
 constraint n_V5638 + V5637 >= 1;
 constraint V5638 + n_V5628 + n_V5637 >= 1;
 constraint n_V5638 >= 1;
+
+solve satisfy;%solve maximize primer variable

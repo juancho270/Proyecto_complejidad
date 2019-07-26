@@ -4081,3 +4081,5 @@ constraint V90 >= 1;
 constraint V91 >= 1;
 constraint V95 >= 1;
 constraint V96 >= 1;
+
+solve satisfy;%solve maximize primer variable

@@ -43775,3 +43775,5 @@ constraint n_V7500 + V7485 >= 1;
 constraint n_V7500 + V7483 >= 1;
 constraint n_V7500 + V7481 >= 1;
 constraint n_V7500 + V7479 >= 1;
+
+solve satisfy;%solve maximize primer variable

@@ -25866,3 +25866,5 @@ constraint n_V4612 + V4609 >= 1;
 constraint n_V4612 + V4600 >= 1;
 constraint n_V4612 + V4593 >= 1;
 constraint n_V4612 + V4586 >= 1;
+
+solve satisfy;%solve maximize primer variable

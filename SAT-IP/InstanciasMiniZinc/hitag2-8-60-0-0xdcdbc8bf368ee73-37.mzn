@@ -35081,3 +35081,5 @@ constraint n_V2295 + V2292 + V2293 + n_V2294 >= 1;
 constraint n_V2295 + V2292 + n_V2293 + V2294 >= 1;
 constraint n_V2295 + n_V2292 + V2293 + V2294 >= 1;
 constraint V2295 + V2292 + V2293 + V2294 >= 1;
+
+solve satisfy;%solve maximize primer variable

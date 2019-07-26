@@ -89338,3 +89338,5 @@ constraint V8608 + V256 + n_V9219 >= 1;
 constraint V8608 + n_V256 + V9219 >= 1;
 constraint n_V8608 + V256 + V9219 >= 1;
 constraint n_V8608 + n_V256 + n_V9219 >= 1;
+
+solve satisfy;%solve maximize primer variable

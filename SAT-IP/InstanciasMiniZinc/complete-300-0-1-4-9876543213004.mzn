@@ -28425,3 +28425,5 @@ constraint n_V202 + V600 >= 1;
 constraint n_V182 + V600 >= 1;
 constraint n_V120 + V600 >= 1;
 constraint V300 + n_V600 + V185 + V268 + V196 + V279 + V43 + V100 + V226 + V195 + V254 + V64 + V82 + V78 + V15 + V80 + V283 + V93 + V215 + V24 + V58 + V30 + V116 + V159 + V111 + V140 + V207 + V149 + V41 + V202 + V182 + V120 >= 1;
+
+solve satisfy;%solve maximize primer variable

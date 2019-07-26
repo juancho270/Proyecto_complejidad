@@ -35685,3 +35685,5 @@ constraint n_V2331 + V2328 + V2329 + n_V2330 >= 1;
 constraint n_V2331 + V2328 + n_V2329 + V2330 >= 1;
 constraint n_V2331 + n_V2328 + V2329 + V2330 >= 1;
 constraint V2331 + V2328 + V2329 + V2330 >= 1;
+
+solve satisfy;%solve maximize primer variable

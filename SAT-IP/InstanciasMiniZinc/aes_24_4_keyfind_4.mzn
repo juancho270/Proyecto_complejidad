@@ -7009,3 +7009,5 @@ constraint V64 >= 1;
 constraint V66 >= 1;
 constraint V67 >= 1;
 constraint V71 >= 1;
+
+solve satisfy;%solve maximize primer variable

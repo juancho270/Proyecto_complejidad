@@ -82493,3 +82493,5 @@ constraint V7984 + V448 + V8590 >= 1;
 constraint V7984 + n_V448 + n_V8590 >= 1;
 constraint n_V7984 + V448 + n_V8590 >= 1;
 constraint n_V7984 + n_V448 + V8590 >= 1;
+
+solve satisfy;%solve maximize primer variable

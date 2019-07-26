@@ -33938,3 +33938,5 @@ constraint n_V2243 + V2240 + V2241 + n_V2242 >= 1;
 constraint n_V2243 + V2240 + n_V2241 + V2242 >= 1;
 constraint n_V2243 + n_V2240 + V2241 + V2242 >= 1;
 constraint V2243 + V2240 + V2241 + V2242 >= 1;
+
+solve satisfy;%solve maximize primer variable

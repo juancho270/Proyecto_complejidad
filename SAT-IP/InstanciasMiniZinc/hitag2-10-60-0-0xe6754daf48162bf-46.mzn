@@ -35518,3 +35518,5 @@ constraint n_V2309 + V2306 + V2307 + n_V2308 >= 1;
 constraint n_V2309 + V2306 + n_V2307 + V2308 >= 1;
 constraint n_V2309 + n_V2306 + V2307 + V2308 >= 1;
 constraint V2309 + V2306 + V2307 + V2308 >= 1;
+
+solve satisfy;%solve maximize primer variable

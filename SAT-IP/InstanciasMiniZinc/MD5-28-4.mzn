@@ -79107,3 +79107,5 @@ constraint V7672 + V288 + V8281 >= 1;
 constraint V7672 + n_V288 + n_V8281 >= 1;
 constraint n_V7672 + V288 + n_V8281 >= 1;
 constraint n_V7672 + n_V288 + V8281 >= 1;
+
+solve satisfy;%solve maximize primer variable

@@ -17056,3 +17056,5 @@ constraint n_V3112 + V3098 >= 1;
 constraint n_V3112 + V3091 >= 1;
 constraint n_V3112 + V3084 >= 1;
 constraint n_V3112 + V3077 >= 1;
+
+solve satisfy;%solve maximize primer variable

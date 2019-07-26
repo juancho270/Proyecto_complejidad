@@ -70612,3 +70612,5 @@ constraint n_V1278 + n_V1265 + V1273 >= 1;
 constraint n_V1278 + n_V1266 + V1274 >= 1;
 constraint n_V1278 + n_V1267 + V1275 >= 1;
 constraint n_V1278 + n_V1268 + V1276 >= 1;
+
+solve satisfy;%solve maximize primer variable

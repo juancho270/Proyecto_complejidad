@@ -92939,3 +92939,5 @@ constraint n_V18606 + V18595 >= 1;
 constraint V18606 + n_V18605 + n_V18595 >= 1;
 constraint V18607 >= 1;
 constraint n_V18606 >= 1;
+
+solve satisfy;%solve maximize primer variable

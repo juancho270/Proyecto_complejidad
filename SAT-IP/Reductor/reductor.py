@@ -74,7 +74,7 @@ def leer():
 				variables = hacerVariables(variables)
 			else:
 				clausulas = clausulas + hacerClausulas(vector)
-		escribir(comentarios + variables + clausulas,nombre)		
+		escribir(comentarios + variables + clausulas+adiccional(),nombre)		
 		g.close()
 
 leer()

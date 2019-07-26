@@ -3973,3 +3973,5 @@ constraint V186 >= 1;
 constraint V187 >= 1;
 constraint V189 >= 1;
 constraint V192 >= 1;
+
+solve satisfy;%solve maximize primer variable

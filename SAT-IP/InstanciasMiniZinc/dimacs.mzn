@@ -15418,3 +15418,5 @@ constraint V2835 + n_V2620 + n_V2834 >= 1;
 constraint V2835 + n_V2368 + n_V2834 >= 1;
 constraint V2835 + n_V2618 + n_V2834 >= 1;
 constraint V2835 >= 1;
+
+solve satisfy;%solve maximize primer variable

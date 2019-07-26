@@ -44653,3 +44653,5 @@ constraint n_V7727 + V7665 >= 1;
 constraint n_V7727 + V7724 >= 1;
 constraint n_V7727 + V7717 >= 1;
 constraint n_V7727 + V7710 >= 1;
+
+solve satisfy;%solve maximize primer variable

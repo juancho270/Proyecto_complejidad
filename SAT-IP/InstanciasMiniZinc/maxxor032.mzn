@@ -65624,3 +65624,5 @@ constraint n_V13239 + V13113 >= 1;
 constraint V13239 + n_V13238 + n_V13113 >= 1;
 constraint V13240 >= 1;
 constraint V13239 >= 1;
+
+solve satisfy;%solve maximize primer variable

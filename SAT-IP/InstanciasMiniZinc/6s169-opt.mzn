@@ -29698,3 +29698,5 @@ constraint n_V6061 + V6051 >= 1;
 constraint n_V6061 + V6060 >= 1;
 constraint V6061 + n_V6051 + n_V6060 >= 1;
 constraint n_V6061 >= 1;
+
+solve satisfy;%solve maximize primer variable

@@ -85914,3 +85914,5 @@ constraint V8296 + V96 + n_V8905 >= 1;
 constraint V8296 + n_V96 + V8905 >= 1;
 constraint n_V8296 + V96 + V8905 >= 1;
 constraint n_V8296 + n_V96 + n_V8905 >= 1;
+
+solve satisfy;%solve maximize primer variable

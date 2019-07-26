@@ -16177,3 +16177,5 @@ constraint n_V3295 + V3285 >= 1;
 constraint n_V3295 + V3294 >= 1;
 constraint V3295 + n_V3285 + n_V3294 >= 1;
 constraint n_V3295 >= 1;
+
+solve satisfy;%solve maximize primer variable

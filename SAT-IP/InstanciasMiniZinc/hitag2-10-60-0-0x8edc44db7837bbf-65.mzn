@@ -34816,3 +34816,5 @@ constraint n_V2271 + V2268 + V2269 + n_V2270 >= 1;
 constraint n_V2271 + V2268 + n_V2269 + V2270 >= 1;
 constraint n_V2271 + n_V2268 + V2269 + V2270 >= 1;
 constraint V2271 + V2268 + V2269 + V2270 >= 1;
+
+solve satisfy;%solve maximize primer variable
